@@ -7,34 +7,27 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Tic Tac Toe</title>
 </head>
-<body>
+<body onload="startGame()">
     <h1>Tic Tac Toe</h1>
-<table>
+    <div id="message">Player's turn</div>
+<table border="1">
     <tr>
-        <td id="0" class="box"></td>
-        <td id="1" class="box"></td>
-        <td id="2" class="box"></td>
+        <td id="box1" class="box" onclick="nextMove(this)"></td>
+        <td id="box2" class="box" onclick="nextMove(this)"></td>
+        <td id="box3" class="box" onclick="nextMove(this)"></td>
     </tr>
     <tr>
-        <td id="3" class="box"></td>
-        <td id="4" class="box"></td>
-        <td id="5" class="box"></td>
+        <td id="box4" class="box" onclick="nextMove(this)"></td>
+        <td id="box5" class="box" onclick="nextMove(this)"></td>
+        <td id="box6" class="box" onclick="nextMove(this)"></td>
     </tr>
     <tr>
-        <td id="6" class="box"></td>
-        <td id="7" class="box"></td>
-        <td id="8" class="box"></td>
-     </tr>
-
-    
+        <td id="box7" class="box" onclick="nextMove(this)"></td>
+        <td id="box8" class="box" onclick="nextMove(this)"></td>
+        <td id="box9" class="box" onclick="nextMove(this)"></td>
+     </tr> 
 </table>
-
-<div id="main">
-        <div align="center" class="container">
-            <section class="flat">
-                <button>Restart Game</button>
-            </section>
-        </div>
+    <button id="restart" href="javascript: startGame();">Restart Game</button>
 
     <script src="js/main.js"></script>
 </body>

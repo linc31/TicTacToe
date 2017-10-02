@@ -1,11 +1,30 @@
 body {
+    width: 550px;
+    margin: 0 auto;
     background-color: #005076;
 }
 h1 {
     text-align: center;
     margin: 50px 0;
 }
-table {
+#message {
+    font-family: 'Lato';
+    font-size: 24px;
+}
+.box {
+    height: 150px;
+    width: 150px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lato';
+}
+#restart {
+    font-family: 'Lato';
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+/* table {
     cursor: pointer;
     border-collapse: collapse;
     font-size: 72px;
@@ -19,8 +38,8 @@ td {
     vertical-align: middle;
     text-align: center;
     max-width: 450px;
-}
-.box {
+} */
+/* .box {
 	border-right: solid 3px #007490;
 	width: 150px;
     height: 150px;
@@ -29,8 +48,8 @@ td {
     border-bottom: solid 3px #007490;
 	width: 150px;
 	height: 150px;
-}
-button {
+} */
+/* button {
     display: inline-block;
     margin: 0 auto;
     width: 30%;
@@ -48,8 +67,8 @@ button {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 2px;
-  }
-  section.flat button {
+  } */
+  /* section.flat button {
     color: #fff;
     background-color: #0099a9;
     text-shadow: -1px 1px #0099a9;
@@ -64,4 +83,4 @@ button {
   section.flat button.active {
     background-color: #27496d;
     text-shadow: -1px 1px #193047;
-  }
+  } */
